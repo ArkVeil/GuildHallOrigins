@@ -1,0 +1,25 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:slow_falling",
+			"duration": 36000,
+			"is_ambient": true,
+			"show_particles": false
+		}
+	},
+	"interval": 10,
+	"condition": {
+		"type": "origins:on_block",
+		"inverted": true
+	},
+	"falling_action": {
+		"type": "origins:clear_effect",
+		"effect": "minecraft:slow_falling"
+	},
+	"name": "Light Build",
+	"description" : "You are as light as a feather, and have constant slowfalling"
+		
+  
+}

@@ -1,0 +1,9 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:honeycomb",
+  "order": 4,
+  "impact": 2,
+  "unchoosable": true,
+  "loading_priority": 3
+}

@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "guildhall:stinger",
+	"guildhall:flower_power",
+	"guildhall:bee_sized",
+	"guildhall:wings",
+	"moborigins:queen_bee",
+	"guildhall:flight_exhaustion",
+	"guildhall:flight_limit",
+	"guildhall:bee_slow_fall_clear",
+	"origins:vegetarian",
+	"origins:arthropod"
+  ],
+  "icon": "minecraft:honeycomb",
+  "order": 4,
+  "impact": 2,
+  "name": "Bee",
+  "description": "A flying insect that pollinates the world, spreading flowers and honey all around."
+}

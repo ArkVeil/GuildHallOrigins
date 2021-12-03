@@ -1,0 +1,32 @@
+{
+  "type": "origins:multiple",
+  "name": "Fox Build",
+  "description": "You are as large as a Fox and as frail as your size.",
+  "modify_size": {
+	"type": "extraorigins:modify_size",
+	"scale": 0.6
+  },
+  "attribute_modifiers": {
+	"type": "origins:attribute",
+	"modifiers": [
+	  {
+		"name": "Origin modifier",
+		"attribute": "generic.max_health",
+		"operation": "addition",
+		"value": -4
+	  },
+	  {
+		"name": "Origin modifier",
+		"attribute": "reach-entity-attributes:attack_range",
+		"operation": "addition",
+		"value": -0.15
+	  },
+	  {
+		"name": "Origin modifier",
+		"attribute": "reach-entity-attributes:reach",
+		"operation": "addition",
+		"value": -1
+	  }
+	]
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "powers": [
+		"origins:water_vision",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:like_water",
+		"origins:aquatic",
+		"guildhall:amphibious",
+		"guildhall:turtle_legs",
+		"origins:conduit_power_on_land",
+		"origins:more_exhaustion",
+		"guildhall:hide_in_shell"
+    ],
+    "icon": "minecraft:turtle_helmet",
+    "order": 4,
+    "impact": 2,
+    "name": "Turtle",
+    "description": "N/A."
+}

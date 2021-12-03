@@ -1,0 +1,19 @@
+{
+    "powers": [
+		"extraorigins:bite_sized",
+		"origins:elytra",
+		"extraorigins:nimble",
+		"origins:climbing",
+		"origins:no_shield",
+		"origins:more_exhaustion",
+		"guildhall:inchling_claustrophobia",
+		"guildhall:light_build",
+		"guildhall:flutter",
+		"origins:arthropod"
+    ],
+    "icon": "minecraft:dragon_breath",
+    "order": 4,
+    "impact": 3,
+    "name": "Enderfly",
+    "description": "N/A."
+}

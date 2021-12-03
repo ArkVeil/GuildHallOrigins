@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+	"name": "Sly",
+	"description": "You are a sly creature and are able to move faster.",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.01,
+        "operation": "addition"
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "origins:multiple",
+  "name": "Bee Sized",
+  "description": "You are as large as a Bee and a little frailer.",
+  "modify_size": {
+	"type": "extraorigins:modify_size",
+	"scale": 0.5
+  },
+  "attribute_modifiers": {
+	"type": "origins:attribute",
+	"modifiers": [
+	  {
+		"name": "Origin modifier",
+		"attribute": "generic.max_health",
+		"operation": "addition",
+		"value": -4
+	  },
+	  {
+		"name": "Origin modifier",
+		"attribute": "generic.movement_speed",
+		"operation": "addition",
+		"value": -0.015
+	  },
+	  {
+		"name": "Origin modifier",
+		"attribute": "reach-entity-attributes:reach",
+		"operation": "addition",
+		"value": -1
+	  }
+	]
+  }
+}

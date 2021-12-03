@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "moborigins:timid_creature",
+    "guildhall:better_berries",
+    "moborigins:careful_gatherer",
+    "moborigins:item_collector",
+	"guildhall:fox_build",
+	"origins:more_exhaustion",
+	"guildhall:sly"
+  ],
+  "name": "Fox",
+  "description": "Sly and cunning, foxes are timid animals who enjoy eating berries, and stealing items.",
+  "icon": "minecraft:sweet_berries",
+  "order": 2,
+  "impact": 2
+}
