@@ -2,9 +2,7 @@
     "replace": false,
     "origins": [
         "guildhall:feline",
-		"guildhall:fox",
 		"guildhall:enderfly",
-		"guildhall:turtle",
-		"guildhall:bee"
+		"guildhall:turtle"
     ]
 }
