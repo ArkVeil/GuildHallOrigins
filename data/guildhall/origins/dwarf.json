@@ -1,6 +1,7 @@
 {
   "powers": [
-    
+    "guildhall:dwarf_build",
+    "origins:like_air"
   ],
   "name": "Dwarf",
   "description": "TBD.",

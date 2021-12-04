@@ -1,0 +1,67 @@
+{
+	"type": "origins:multiple",
+	"name": "Dwarf Build",
+	"description": "You are 1.5 blocks tall and have 12 hearts.",
+	"modify_size": {
+		"type": "extraorigins:modify_size",
+		"scale": 0.75
+	},
+	"attribute_modifiers": {
+		"type": "origins:attribute",
+		"modifiers": [
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.max_health",
+				"operation": "addition",
+				"value": 4
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "reach-entity-attributes:attack_range",
+				"operation": "addition",
+				"value": -0.1
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "reach-entity-attributes:reach",
+				"operation": "addition",
+				"value": -0.5
+			}
+		]
+	},"sprint_modifier": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "addition",
+			"value": -0.02,
+			"name": "Decreased sprint speed"
+		},
+		"tick_rate": 1,
+		"condition": {
+			"type": "origins:sprinting"
+		},
+		"hidden": true
+	},
+	"walk_modifier": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "addition",
+			"value": -0.08,
+			"name": "Decreased walking speed"
+		},
+		"tick_rate": 1,
+		"condition": {
+			"type": "origins:sprinting",
+			"inverted": true
+		},
+		"hidden": true
+	},
+	"modify_air": {
+		"type": "origins:modify_air_speed",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": 0.8
+		}
+	}
+}
