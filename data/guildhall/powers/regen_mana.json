@@ -1,0 +1,12 @@
+{
+	"name": "Mana Regen",
+	"description": "",
+    "type": "origins:action_over_time",
+    "interval": 30,
+    "cooldown": 0,
+    "entity_action": {
+		"type": "origins:change_resource",
+		"resource": "guildhall:mana",
+		"change": 2
+	}
+}
