@@ -1,7 +1,8 @@
 {
   "powers": [
     "guildhall:dwarf_build",
-    "guildhall:stubby_legs"
+    "guildhall:stubby_legs",
+    "guildhall:rock_and_stone"
   ],
   "name": "Dwarf",
   "description": "TBD.",
