@@ -1,0 +1,27 @@
+{
+    "type": "origins:multiple",
+    "name": "Rock and Stone!",
+    "description": "You can break stone blocks faster.",
+    "break_natural_stone": {
+        "type": "origins:modify_break_speed",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "origins:natural_stone"
+        },
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.15
+        }
+    },
+    "break_deepslate": {
+        "type": "origins:modify_break_speed",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:deepslate"
+        },
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.7
+        }
+    }
+}
