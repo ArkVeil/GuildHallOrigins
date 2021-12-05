@@ -1,9 +1,11 @@
 {
     "powers": [
         "guildhall:better_berries",    
-        "guildhall:snow_spirit_build",
-        "origins:like_air",
-        "guildhall:nimble"
+        "guildhall:snowspirit/snow_spirit_build",
+        "guildhall:snowspirit/nimble",
+        "guildhall:snowspirit/chilling_step",
+        "guildhall:snowspirit/clumsy"
+        
     ],
     "name": "Snow Spirit",
     "description": "",
