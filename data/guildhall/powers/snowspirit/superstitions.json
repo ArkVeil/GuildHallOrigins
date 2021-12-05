@@ -1,0 +1,19 @@
+{
+    "name": "Surrounded by Superstitions",
+    "description": "Villagers distrust foxes, so they refuse to trade with you.",
+    "type": "origins:prevent_entity_use",
+    "bientity_action": {
+        "type": "origins:actor_action",
+        "action": {
+            "type": "origins:execute_command"
+            
+        }
+    },
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:villager"
+        }
+    }
+}
