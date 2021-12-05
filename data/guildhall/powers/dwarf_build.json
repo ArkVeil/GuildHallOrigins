@@ -28,40 +28,5 @@
 				"value": -0.5
 			}
 		]
-	},"sprint_modifier": {
-		"type": "origins:conditioned_attribute",
-		"modifier": {
-			"attribute": "minecraft:generic.movement_speed",
-			"operation": "addition",
-			"value": -0.02,
-			"name": "Decreased sprint speed"
-		},
-		"tick_rate": 1,
-		"condition": {
-			"type": "origins:sprinting"
-		},
-		"hidden": true
-	},
-	"walk_modifier": {
-		"type": "origins:conditioned_attribute",
-		"modifier": {
-			"attribute": "minecraft:generic.movement_speed",
-			"operation": "addition",
-			"value": -0.02,
-			"name": "Decreased walking speed"
-		},
-		"tick_rate": 1,
-		"condition": {
-			"type": "origins:sprinting",
-			"inverted": true
-		},
-		"hidden": true
-	},
-	"modify_air": {
-		"type": "origins:modify_air_speed",
-		"modifier": {
-			"operation": "addition",
-			"value": -0.01
-		}
 	}
 }
