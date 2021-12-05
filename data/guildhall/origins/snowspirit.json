@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "guildhall:better_berries",    
+        "guildhall:snow_spirit_build",
+        "origins:like_air",
+        "guildhall:nimble"
+    ],
+    "name": "Snow Spirit",
+    "description": "",
+    "icon": "minecraft:snow_block",
+    "order": 2,
+    "impact": 2
+  }

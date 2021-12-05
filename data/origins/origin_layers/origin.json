@@ -2,9 +2,10 @@
     "replace": false,
     "origins": [
         "guildhall:feline",
-		"guildhall:enderfly",
-		"guildhall:turtle",
-		"guildhall:elemental",
-   		"guildhall:dwarf"
+        "guildhall:enderfly",
+        "guildhall:turtle",
+        "guildhall:elemental",
+        "guildhall:dwarf",
+        "guildhall:snowspirit"
     ]
 }
