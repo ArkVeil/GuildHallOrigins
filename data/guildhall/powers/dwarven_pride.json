@@ -1,4 +1,6 @@
 {
+    "name": "Dwarven Pride",
+    "description": "Your pride will not allow you to wear low quality armor. Can only wear Gold, Diamond, or Netherite armor",
     "type": "origins:restrict_armor",
     "head": {
         "type": "origins:ingredient",
