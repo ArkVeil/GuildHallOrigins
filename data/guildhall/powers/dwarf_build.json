@@ -47,7 +47,7 @@
 		"modifier": {
 			"attribute": "minecraft:generic.movement_speed",
 			"operation": "addition",
-			"value": -0.08,
+			"value": -0.02,
 			"name": "Decreased walking speed"
 		},
 		"tick_rate": 1,
@@ -60,8 +60,8 @@
 	"modify_air": {
 		"type": "origins:modify_air_speed",
 		"modifier": {
-			"operation": "multiply_total",
-			"value": 0.8
+			"operation": "addition",
+			"value": -0.01
 		}
 	}
 }
