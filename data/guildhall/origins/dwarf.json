@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "guildhall:dwarf_build",
+    "guildhall:stubby_legs",
+    "guildhall:rock_and_stone",
+    "guildhall:employee_otm",
+    "guildhall:powerful_grip",
+    "guildhall:dwarven_pride",
+    "guildhall:bug_hater",
+    "guildhall:dwarven_grace"
+  ],
+  "name": "Dwarf",
+  "description": "ROCK AND STONE LADS.",
+  "icon": "minecraft:diamond_pickaxe",
+  "impact": 2
+}

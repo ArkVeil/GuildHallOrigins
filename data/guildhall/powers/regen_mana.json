@@ -1,0 +1,33 @@
+{
+	"name": "Mana Regen",
+	"description": "",
+    "type": "origins:multiple",
+    "passive":{
+        "type": "origins:action_over_time",
+        "interval": 30,
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "guildhall:mana",
+            "change": 2
+        }
+    },
+    "kill":{
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "guildhall:mana",
+            "change": 15
+        }
+    },
+    "awake":{
+        "type": "origins:action_on_wake_up",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "guildhall:mana",
+            "change": 100
+        }
+    }
+}

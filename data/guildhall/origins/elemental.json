@@ -7,7 +7,7 @@
 		"guildhall:elemental/ice_bolt",
 		"guildhall:elemental/wither_bond",
 		"guildhall:elemental/nature_protection",
-    "guildhall:elemental/skipped_arm_day"
+    	"guildhall:elemental/skipped_arm_day"
     ],
     "icon": "minecraft:nether_star",
     "order": 4,
