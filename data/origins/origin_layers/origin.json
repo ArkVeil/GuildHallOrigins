@@ -3,6 +3,7 @@
     "origins": [
         "guildhall:feline",
 		"guildhall:enderfly",
-		"guildhall:turtle"
+		"guildhall:turtle",
+		"guildhall:elemental"
     ]
 }

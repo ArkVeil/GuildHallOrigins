@@ -1,0 +1,17 @@
+{
+    "powers": [
+		"guildhall:elemental/mana",
+		"guildhall:elemental/regen_mana",
+		"guildhall:elemental/levitate",
+		"guildhall:elemental/fire_bolt",
+		"guildhall:elemental/ice_bolt",
+		"guildhall:elemental/wither_bond",
+		"guildhall:elemental/nature_protection",
+    "guildhall:elemental/skipped_arm_day"
+    ],
+    "icon": "minecraft:nether_star",
+    "order": 4,
+    "impact": 2,
+    "name": "Elemental",
+    "description": "N/A."
+}
