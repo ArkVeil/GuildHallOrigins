@@ -40,8 +40,12 @@
 			"change": -5
 		},
 		"sound": "minecraft:entity.blaze.shoot",
-		"entity_type": "minecraft:fireball",
-		"tag": "{ExplosionPower:0}"
+		"entity_type": "minecraft:arrow",
+		"tag": "{pickup:0b, crit:0b, damage:40, life:1199, Item: {id: 'minecraft:fireball', Count: 1b}}",
+		"speed": 2.5,
+		"hud_render": {
+			"should_render": false
+		}
 	},
 	"fb_use_mana":{
 		"type":"origins:active_self",
@@ -87,7 +91,7 @@
 		"damage_condition":
 		{
 			"type": "origins:projectile",
-    		"projectile": "minecraft:fireball"
+    		"projectile": "minecraft:arrow"
 		},
 		"condition": 
 		{	
@@ -102,12 +106,9 @@
 				}
 			}
 		},
-		"entity_action":
-		{
-			"type": "origins:explode",
-			"power": 0.2,
-			"destruction_type": "none",
-			"create_fire": false
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.generic.explode"
 		}
 	}
 }

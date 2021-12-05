@@ -1,0 +1,19 @@
+{
+    "type": "origins:multiple",
+    "no_hands": {
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "name": "Do basically no damage",
+            "operation": "multiply_total",
+            "value": -0.9
+        }
+    },
+    "got_projectiles_tho": {
+        "type": "origins:modify_projectile_damage",
+        "modifier": {
+            "name": "Do basically no damage",
+            "operation": "multiply_total",
+            "value": -0.9
+        }
+    }
+}
