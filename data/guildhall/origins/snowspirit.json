@@ -5,7 +5,8 @@
         "guildhall:snowspirit/nimble",
         "guildhall:snowspirit/chilling_step",
         "guildhall:snowspirit/clumsy",
-        "guildhall:snowspirit/ice_body"
+        "guildhall:snowspirit/ice_body",
+        "guildhall:snowspirit/heat_sensitive"
         
     ],
     "name": "Snow Spirit",
