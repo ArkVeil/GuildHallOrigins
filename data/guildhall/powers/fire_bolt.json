@@ -4,7 +4,7 @@
 	"type": "origins:multiple",
 	"fire_bolt":{
 		"type": "origins:fire_projectile",
-		"cooldown": 2,
+		"cooldown": 20,
 		"key": {
 			"key": "key.attack",
 			"continuous": false
@@ -39,14 +39,41 @@
 			"resource": "guildhall:mana",
 			"change": -5
 		},
+		"sound": "minecraft:entity.blaze.shoot",
 		"entity_type": "minecraft:fireball",
 		"tag": "{ExplosionPower:0}"
 	},
 	"fb_use_mana":{
 		"type":"origins:active_self",
+		"cooldown": 20,
 		"key": {
 			"key": "key.attack",
 			"continuous": false
+		},
+		"condition": 
+		{	
+			"type": "origins:and",
+			"conditions":
+			[
+				{
+					"type": "origins:resource",
+					"resource": "guildhall:mana",
+					"comparison": ">",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition":
+					{
+						"type": "origins:ingredient",
+						"ingredient":
+						{
+							"item": "minecraft:stick"
+						}
+					}
+				}
+			]
 		},
 		"entity_action": {
 			"type": "origins:change_resource",
