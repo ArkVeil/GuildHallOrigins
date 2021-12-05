@@ -37,5 +37,12 @@
 			"operation": "addition",
 			"value": -0.01
 		}
-	}
+	},
+    "modify_swimspeed":  {
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.2
+        }
+    }
 }

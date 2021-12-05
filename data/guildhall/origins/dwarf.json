@@ -2,7 +2,8 @@
   "powers": [
     "guildhall:dwarf_build",
     "guildhall:stubby_legs",
-    "guildhall:rock_and_stone"
+    "guildhall:rock_and_stone",
+    "guildhall:employee_otm"
   ],
   "name": "Dwarf",
   "description": "TBD.",
