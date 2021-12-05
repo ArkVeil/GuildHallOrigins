@@ -1,0 +1,131 @@
+{
+	"name": "Fire Bolt",
+	"description": "Right click to fire a bolf of fire. Make sure to scream fire for added effect.",
+	"type": "origins:multiple",
+	"ice_bolt":{
+		"type": "origins:fire_projectile",
+		"cooldown": 20,
+		"key": {
+			"key": "key.use",
+			"continuous": false
+		},
+		"condition": 
+		{	
+			"type": "origins:and",
+			"conditions":
+			[
+				{
+					"type": "origins:resource",
+					"resource": "guildhall:elemental/mana",
+					"comparison": ">",
+					"compare_to": 15
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition":
+					{
+						"type": "origins:ingredient",
+						"ingredient":
+						{
+							"item": "minecraft:stick"
+						}
+					}
+				}
+			]
+		},
+		"sound": "minecraft:block.note_block.chime",
+		"entity_type": "minecraft:snowball",
+		"speed": 1,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"ib_use_mana":{
+		"type":"origins:active_self",
+		"cooldown": 20,
+		"key": {
+			"key": "key.use",
+			"continuous": false
+		},
+		"condition": 
+		{	
+			"type": "origins:and",
+			"conditions":
+			[
+				{
+					"type": "origins:resource",
+					"resource": "guildhall:elemental/mana",
+					"comparison": ">",
+					"compare_to": 15
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition":
+					{
+						"type": "origins:ingredient",
+						"ingredient":
+						{
+							"item": "minecraft:stick"
+						}
+					}
+				}
+			]
+		},
+		"entity_action": {
+			"type": "origins:delay",
+			"ticks": 1,
+			"action":{
+				"type": "origins:change_resource",
+				"resource": "guildhall:elemental/mana",
+				"change": -15
+			}
+		}
+	},
+	"ib_freeze":{
+		"type": "origins:target_action_on_hit",
+		"cooldown": 0,
+		"damage_condition":
+		{
+			"type": "origins:projectile",
+    		"projectile": "minecraft:snowball"
+		},
+		"condition": 
+		{	
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition":
+			{
+				"type": "origins:ingredient",
+				"ingredient":
+				{
+					"item": "minecraft:stick"
+				}
+			}
+		},
+		"entity_action":
+		{
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect":"minecraft:slowness",
+						"duration": 200,
+						"amplifier": 1
+					}
+				},
+				{
+					"type": "origins:grant_power",
+					"power": "guildhall:elemental/freeze",
+    				"source": "guildhall:elemental"
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:block.glass.break"
+				}
+			]
+		}
+	}
+}
