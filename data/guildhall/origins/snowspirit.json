@@ -4,7 +4,8 @@
         "guildhall:snowspirit/snow_spirit_build",
         "guildhall:snowspirit/nimble",
         "guildhall:snowspirit/chilling_step",
-        "guildhall:snowspirit/clumsy"
+        "guildhall:snowspirit/clumsy",
+        "guildhall:snowspirit/ice_body"
         
     ],
     "name": "Snow Spirit",
