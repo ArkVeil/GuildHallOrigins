@@ -1,0 +1,27 @@
+{
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "guildhall:shameful_armor"
+        }
+    },
+    "chest": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "guildhall:shameful_armor"
+        }
+    },
+    "legs": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "guildhall:shameful_armor"
+        }
+    },
+    "feet": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "guildhall:shameful_armor"
+        }
+    }
+}
