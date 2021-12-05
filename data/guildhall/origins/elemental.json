@@ -1,0 +1,13 @@
+{
+    "powers": [
+		"guildhall:mana",
+		"guildhall:regen_mana",
+		"guildhall:levitate",
+		"guildhall:fire_bolt"
+    ],
+    "icon": "minecraft:nether_star",
+    "order": 4,
+    "impact": 2,
+    "name": "Elemental",
+    "description": "N/A."
+}
