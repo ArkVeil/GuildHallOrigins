@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "guildhall:better_berries",    
+        "guildhall:snowspirit/snow_spirit_build",
+        "guildhall:snowspirit/nimble",
+        "guildhall:snowspirit/chilling_step",
+        "guildhall:snowspirit/clumsy",
+        "guildhall:snowspirit/ice_body",
+        "guildhall:snowspirit/heat_sensitive",
+        "guildhall:snowspirit/superstitions",
+        "guildhall:snowspirit/small_omnivore"
+    ],
+    "name": "Snow Spirit",
+    "description": "",
+    "icon": "minecraft:snow_block",
+    "order": 2,
+    "impact": 2
+  }

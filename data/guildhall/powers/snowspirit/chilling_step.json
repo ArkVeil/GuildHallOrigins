@@ -1,0 +1,38 @@
+{
+    "type": "origins:multiple",
+    "name":"Chilling Step",
+    "description":"You can walk on water by freezing it. (Frostwalker)",
+    "toggle":{
+        "type":"origins:toggle",
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": false
+          }
+    },
+    "frostwalker":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 minecraft:frosted_ice replace minecraft:water"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                  }
+            ]
+        },
+        "interval": 1,
+        "name": "Permafrost Walker",
+        "description": "You have permanent Frost Walker in a 3 block radius."
+    }
+    
+    
+}

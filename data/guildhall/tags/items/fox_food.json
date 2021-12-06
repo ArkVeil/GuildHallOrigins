@@ -1,0 +1,28 @@
+{
+    "values": [
+        "minecraft:honey_bottle",
+        "minecraft:salmon",
+        "minecraft:cooked_salmon",
+        "minecraft:cod",
+        "minecraft:cooked_cod",
+        "minecraft:chicken",
+        "minecraft:cooked_chicken",
+        "minecraft:rabbit",
+        "minecraft:cooked_rabbit",
+        "minecraft:sweet_berries",
+        "minecraft:apple",
+        "minecraft:golden_apple",
+        "minecraft:enchanted_golden_apple",
+        "additionaladditions:honeyed_apple",
+        "minecraft:chorus_fruit",
+        "minecraft:glow_berries",
+        "minecraft:rabbit_stew",
+        "minecraft:carrot",
+        "minecraft:golden_carrot",
+        "minecraft:potato",
+        "minecraft:baked_potato",
+        "minecraft:mushroom_stew",
+        "additionaladditions:fried_egg",
+        "additionaladditions:chicken_nugget"
+    ]
+}
