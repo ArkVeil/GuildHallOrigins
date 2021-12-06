@@ -1,0 +1,22 @@
+{
+    "name": "Depressurized",
+    "description": " ",
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "condition":{
+        "type": "origins:in_block_anywhere",
+        "block_condition": {
+            "type": "origins:height",
+            "comparison": ">=",
+            "compare_to": 70
+        }
+    },
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 1,
+        "source": {
+            "name": "inWall",
+            "bypasses_armor": true
+        }
+    }
+}

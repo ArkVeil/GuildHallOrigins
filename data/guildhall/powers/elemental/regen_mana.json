@@ -1,6 +1,6 @@
 {
 	"name": "Mana Regen",
-	"description": "",
+	"description": "Regenerate mana when sleeping, killing, or doing nothing",
     "type": "origins:multiple",
     "passive":{
         "type": "origins:action_over_time",

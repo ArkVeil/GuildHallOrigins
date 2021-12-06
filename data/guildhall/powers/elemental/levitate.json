@@ -1,6 +1,6 @@
 {
-    "name":"Almost flight",
-    "description":"sneak and press hotkey 1 to experience something thats not quite like flight (Applies Levitation I)",
+    "name":"Almost Flight",
+    "description":"Sneak and press [PRIMARY] to experience something that's not quite like flight. (Applies Levitation I)",
     "type": "origins:active_self",
     "cooldown": 0,
     "hud_render": {

@@ -1,0 +1,16 @@
+{
+    "powers": [
+		"origins:water_breathing",
+		"origins:water_vision",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:like_water",
+		"guildhall:abyssian/depressure",
+		"guildhall:abyssian/deep_power"
+    ],
+    "icon": "minecraft:nether_star",
+    "order": 4,
+    "impact": 2,
+    "name": "Abyssian",
+    "description": " "
+}
