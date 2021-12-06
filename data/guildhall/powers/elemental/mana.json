@@ -1,4 +1,6 @@
 {
+    "name": "Mana",
+    "description": " ",
     "type": "origins:resource",
     "min": 0,
     "max": 100,
