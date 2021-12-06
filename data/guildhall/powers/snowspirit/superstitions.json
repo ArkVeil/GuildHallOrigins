@@ -5,8 +5,8 @@
     "bientity_action": {
         "type": "origins:actor_action",
         "action": {
-            "type": "origins:execute_command"
-            
+            "type": "origins:execute_command",
+            "command": "title @s actionbar {\"text\": \"Cannot interact with Villagers!\", \"color\": \"red\"}"
         }
     },
     "bientity_condition": {
