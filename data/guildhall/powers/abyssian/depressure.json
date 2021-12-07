@@ -1,15 +1,26 @@
 {
     "name": "Depressurized",
-    "description": " ",
+    "description": "Altitude isn't your friend, best to stay around sea level.",
     "type": "origins:action_over_time",
     "interval": 20,
     "condition":{
-        "type": "origins:in_block_anywhere",
-        "block_condition": {
-            "type": "origins:height",
-            "comparison": ">=",
-            "compare_to": 70
-        }
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:in_block_anywhere",
+                "block_condition": {
+                    "type": "origins:height",
+                    "comparison": ">=",
+                    "compare_to": 70
+                }
+            },
+            {
+                "type": "origins:resource",
+                "resource": "guildhall:abyssian/deeps_might_bool",
+                "comparison": "==",
+                "compare_to": 0
+            }
+        ]
     },
     "entity_action": {
         "type": "origins:damage",

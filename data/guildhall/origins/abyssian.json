@@ -5,8 +5,14 @@
 		"origins:aqua_affinity",
 		"origins:swim_speed",
 		"origins:like_water",
+		"origins:aquatic",
+		"origins:conduit_power_on_land",
+		"guildhall:abyssian/big_fish",
+		"guildhall:abyssian/abyssian_diet",
 		"guildhall:abyssian/depressure",
-		"guildhall:abyssian/deep_power"
+		"guildhall:abyssian/deep_power",
+		"guildhall:abyssian/deeps_might",
+		"guildhall:abyssian/night_vision"
     ],
     "icon": "minecraft:nether_star",
     "order": 4,
