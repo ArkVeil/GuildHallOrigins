@@ -1,0 +1,6 @@
+{
+    "name": "Big Fish",
+    "description": "Bigger than the average fish (and human)",
+    "type": "extraorigins:modify_size",
+	"scale": 2.5
+}
