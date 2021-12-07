@@ -5,7 +5,7 @@
     "transparent": {
         "type": "origins:model_color",
         "alpha": 0.6,
-        "condidtion": {
+        "condition": {
             "type": "origins:or",
             "conditions": [
                 {
@@ -27,7 +27,7 @@
     },
     "strength":{
         "type": "origins:modify_damage_dealt",
-        "condidtion": {
+        "condition": {
             "type": "origins:or",
             "conditions": [
                 {
@@ -39,6 +39,7 @@
                     }
                 },
                 {
+                    
                     "type": "origins:resource",
                     "resource": "guildhall:abyssian/deeps_might_bool",
                     "comparison": "==",
