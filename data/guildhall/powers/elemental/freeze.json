@@ -10,7 +10,7 @@
         }
     },
     "cold_damage": {
-        "type": "origins:elemental/freeze"
+        "type": "origins:freeze"
     },
     "cold_tick":
     {

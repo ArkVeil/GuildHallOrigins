@@ -1,10 +1,10 @@
 {
 	"name": "Fire Bolt",
-	"description": "Right click to fire a bolf of fire. Make sure to scream fire for added effect.",
+	"description": "Your burnt bread and melted butter spell, Right click with a stick to fire a bolf of fire. Make sure to scream \"FIRE!\" for added effect.",
 	"type": "origins:multiple",
 	"fire_bolt":{
 		"type": "origins:fire_projectile",
-		"cooldown": 20,
+		"cooldown": 15,
 		"key": {
 			"key": "key.attack",
 			"continuous": false
@@ -44,7 +44,7 @@
 	},
 	"fb_use_mana":{
 		"type":"origins:active_self",
-		"cooldown": 20,
+		"cooldown": 15,
 		"key": {
 			"key": "key.attack",
 			"continuous": false
