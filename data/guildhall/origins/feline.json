@@ -3,9 +3,9 @@
 		"origins:fall_immunity",
 		"origins:sprint_jump",
 		"origins:nine_lives",
-		"guildhall:hissy_fit",
-		"guildhall:weak_arms",
-		"guildhall:cats_climb",
+		"guildhall:feline/hissy_fit",
+		"guildhall:feline/weak_arms",
+		"guildhall:feline/cats_climb",
 		"origins:scare_creepers",
 		"origins:cat_vision"
     ],
