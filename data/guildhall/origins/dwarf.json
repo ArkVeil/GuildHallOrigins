@@ -1,13 +1,13 @@
 {
   "powers": [
-    "guildhall:dwarf_build",
-    "guildhall:stubby_legs",
-    "guildhall:rock_and_stone",
-    "guildhall:employee_otm",
-    "guildhall:powerful_grip",
-    "guildhall:dwarven_pride",
-    "guildhall:bug_hater",
-    "guildhall:dwarven_grace"
+    "guildhall:dwarf/dwarf_build",
+    "guildhall:dwarf/stubby_legs",
+    "guildhall:dwarf/rock_and_stone",
+    "guildhall:dwarf/employee_otm",
+    "guildhall:dwarf/powerful_grip",
+    "guildhall:dwarf/dwarven_pride",
+    "guildhall:dwarf/bug_hater",
+    "guildhall:dwarf/dwarven_grace"
   ],
   "name": "Dwarf",
   "description": "ROCK AND STONE LADS.",
