@@ -1,13 +1,13 @@
 {
   "powers": [
-    "guildhall:stinger",
-	"guildhall:flower_power",
-	"guildhall:bee_sized",
-	"guildhall:wings",
+    "guildhall:bee/stinger",
+	"guildhall:bee/flower_power",
+	"guildhall:bee/bee_sized",
+	"guildhall:bee/wings",
+	"guildhall:bee/flight_exhaustion",
+	"guildhall:bee/flight_limit",
+	"guildhall:bee/bee_slow_fall_clear",
 	"moborigins:queen_bee",
-	"guildhall:flight_exhaustion",
-	"guildhall:flight_limit",
-	"guildhall:bee_slow_fall_clear",
 	"origins:vegetarian",
 	"origins:arthropod"
   ],
