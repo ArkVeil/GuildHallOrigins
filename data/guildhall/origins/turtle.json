@@ -5,11 +5,11 @@
 		"origins:swim_speed",
 		"origins:like_water",
 		"origins:aquatic",
-		"guildhall:amphibious",
-		"guildhall:turtle_legs",
+		"guildhall:turtle/amphibious",
+		"guildhall:turtle/turtle_legs",
+		"guildhall:turtle/hide_in_shell",
 		"origins:conduit_power_on_land",
-		"origins:more_exhaustion",
-		"guildhall:hide_in_shell"
+		"origins:more_exhaustion"
     ],
     "icon": "minecraft:turtle_helmet",
     "order": 4,
