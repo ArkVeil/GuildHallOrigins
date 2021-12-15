@@ -15,7 +15,7 @@
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
-        }
+        },
         "block_action": {
             "type": "origins:execute_command",
             "command": "fill ~ ~ ~ ~-1 ~-1 ~-1 minecraft:air destroy"
