@@ -1,0 +1,25 @@
+{
+    "name": "Big Swing",
+    "description": "Due to your large size, your swings can break more than one block. (Toggle with Secondary Active)",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.secondary_active",
+            "continuous": true
+        }
+    },
+    "big_swing": {
+        "type": "origins:action_on_block_break",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+        "block_action": {
+            "type": "origins:execute_command",
+            "command": "fill ~ ~ ~ ~-1 ~-1 ~-1 minecraft:air destroy"
+        },
+    "only_when_harvested": true
+    }
+}

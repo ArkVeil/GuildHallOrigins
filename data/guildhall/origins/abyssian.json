@@ -12,11 +12,12 @@
 		"guildhall:abyssian/depressure",
 		"guildhall:abyssian/deep_power",
 		"guildhall:abyssian/deeps_might",
-		"guildhall:abyssian/night_vision"
+		"guildhall:abyssian/night_vision",
+        "guildhall:abyssian/big_swing"
     ],
     "icon": "minecraft:nether_star",
     "order": 4,
     "impact": 2,
     "name": "Abyssian",
-    "description": " "
+    "description": "The creatures of the aquatic depths."
 }
