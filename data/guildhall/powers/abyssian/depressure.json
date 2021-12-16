@@ -11,7 +11,7 @@
                 "block_condition": {
                     "type": "origins:height",
                     "comparison": ">=",
-                    "compare_to": 70
+                    "compare_to": 80
                 }
             },
             {
