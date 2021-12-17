@@ -18,36 +18,11 @@
         },
         "block_action":
             {
-                "type": "origins:execute_command",
-                "command": "execute if blocks ~ ~ ~ ~ ~ ~ ~1 ~ ~ all run fill ~1 ~ ~ ~1 ~ ~ minecraft:air destroy"
-            },
-    "only_when_harvested": false
-    },
-    "big_swing_z": {
-        "type": "origins:action_on_block_break",
-        "condition": {
-            "type": "origins:power_active",
-            "power": "*:*_toggle"
-        },
-        "block_action":
-            {
-                "type": "origins:execute_command",
-                "command": "execute if blocks ~ ~ ~ ~ ~ ~ ~ ~ ~1 all run fill ~ ~ ~1 ~ ~ ~1 minecraft:air destroy"
-            },
-    "only_when_harvested": false
-    },
-    "big_swing_xz": {
-        "type": "origins:action_on_block_break",
-        "condition": {
-            "type": "origins:power_active",
-            "power": "*:*_toggle"
-        },
-        "block_action":
-            {
-                "type": "origins:execute_command",
-                "command": "execute if blocks ~ ~ ~ ~1 ~ ~1 ~1 ~ ~1 all run fill ~1 ~ ~1 ~1 ~ ~1 minecraft:air destroy"
-            },
-    "only_when_harvested": false
+                "type": "origins:explode",
+                "power": 3,
+                "destruction_type": "break",
+                "damage_self": false,
+                "create_fire": false
+            }
     }
-    
 }
