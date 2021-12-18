@@ -12,6 +12,13 @@
             {
                 "type": "origins:execute_command",
                 "command": "playsound minecraft:iron_golem.damage master @p"
+            },
+            {
+                "type": "origins:damage",
+                "amount": 6,
+                "source": {
+                    "name": "player"
+                }
             }
         ]
     },
