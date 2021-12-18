@@ -11,8 +11,8 @@
                 "y": 0.5
             },
             {
-                "type": "origins:execute_command",
-                "command": "playsound minecraft:iron_golem.damage master @p"
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.iron_golem.hurt"
             },
             {
                 "type": "origins:damage",
@@ -23,7 +23,7 @@
             }
         ]
     },
-    "cooldown": 20,
+    "cooldown": 10,
     "condition": {
         "type": "origins:equipped_item",
         "equipment_slot": "mainhand",
