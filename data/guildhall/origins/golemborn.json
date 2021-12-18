@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "guildhall:golemborn/iron_build",
+        "guildhall:golemborn/steel_legs"
+
+    ],
+    "name": "Golemborn",
+    "description": "A fist of steel and a heart of gold.",
+    "icon": "minecraft:iron_block",
+    "impact": 2
+  }

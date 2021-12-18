@@ -1,0 +1,32 @@
+{
+	"type": "origins:multiple",
+	"name": "Golem Sized",
+	"description": "You are 2.5 blocks tall and can't fit through single door pathways.",
+	"modify_size": {
+		"type": "extraorigins:modify_size",
+		"scale": 1.33
+	},
+	"attribute_modifiers": {
+		"type": "origins:attribute",
+		"modifiers": [
+			{
+				"name": "Origin modifier",
+				"attribute": "generic.max_health",
+				"operation": "addition",
+				"value": 20
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "reach-entity-attributes:attack_range",
+				"operation": "addition",
+				"value": 0
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "reach-entity-attributes:reach",
+				"operation": "addition",
+				"value": 0
+			}
+		]
+	}
+}
