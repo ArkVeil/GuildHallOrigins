@@ -1,0 +1,11 @@
+{
+    "name": "Dense Metal",
+    "description": "Your metal body is too dense to float or swim. At least you don't breath",
+    "type": "origins:multiple",
+    "sink":{
+        "type":"origins:ignore_water"
+    },
+    "doesnt_breath":{
+        
+    }
+}
