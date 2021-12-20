@@ -2,10 +2,23 @@
     "name": "Dense Metal",
     "description": "Your metal body is too dense to float or swim. At least you don't breath",
     "type": "origins:multiple",
-    "sink":{
-        "type":"origins:ignore_water"
+    "sink": {
+        "type": "origins:ignore_water"
     },
-    "doesnt_breath":{
-        
+    "doesnt_breath": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 2,
+        "duration_per_stack": 10,
+        "effect": {
+            "effect": "minecraft:water_breathing",
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        },
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
     }
 }
