@@ -6,7 +6,8 @@
         "guildhall:golemborn/dense_metal",
         "guildhall:golemborn/bulky",
         "guildhall:golemborn/extra_breathe",
-        "guildhall:golemborn/waterlogged_movement"
+        "guildhall:golemborn/waterlogged_movement",
+        "guildhall:golemborn/food/edible_gold"
 
     ],
     "name": "Golemborn",
