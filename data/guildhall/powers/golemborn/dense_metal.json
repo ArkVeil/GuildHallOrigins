@@ -47,25 +47,5 @@
             "type": "origins:submerged_in",
             "fluid": "minecraft:water"
         }
-    },
-    "waterlogged_movement": {
-        "type": "origins:modify_exhaustion",
-        "modifier": {
-            "name": "Increased exhaustion underwater",
-            "operation": "multiply_base",
-            "value": 10.0
-        },
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:submerged_in",
-            "fluid": "minecraft:water"
-                },
-                {
-					"type": "origins:sprinting"
-				}
-            ]
-        }
     }
 }
