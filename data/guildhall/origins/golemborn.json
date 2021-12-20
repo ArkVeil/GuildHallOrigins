@@ -4,7 +4,8 @@
         "guildhall:golemborn/golem_sized",
         "guildhall:golemborn/steel_legs",
         "guildhall:golemborn/dense_metal",
-        "guildhall:golemborn/bulky"
+        "guildhall:golemborn/bulky",
+        "guildhall:golemborn/extra_breathe"
 
     ],
     "name": "Golemborn",

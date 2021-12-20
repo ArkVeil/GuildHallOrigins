@@ -5,7 +5,34 @@
     "sink": {
         "type": "origins:ignore_water"
     },
-    "doesnt_breath": {
+    "waterlogs": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "guildhall:golemborn/extra_breathe",
+            "change": 5
+        },
+        "interval": 10,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
+    },
+    "drain": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "guildhall:golemborn/extra_breathe",
+            "change": -20
+        },
+        "interval": 10,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water",
+            "inverted": true
+        }
+    },
+    "prevent_drown": {
         "type": "origins:stacking_status_effect",
         "min_stacks": 0,
         "max_stacks": 2,
@@ -19,6 +46,26 @@
         "condition": {
             "type": "origins:submerged_in",
             "fluid": "minecraft:water"
+        }
+    },
+    "waterlogged_movement": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "name": "Increased exhaustion underwater",
+            "operation": "multiply_base",
+            "value": 10.0
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+                },
+                {
+					"type": "origins:sprinting"
+				}
+            ]
         }
     }
 }
