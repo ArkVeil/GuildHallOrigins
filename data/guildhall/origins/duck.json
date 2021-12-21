@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "origins:fresh_air",
+        "guildhall:duck/gliding",
+        "origins:lay_eggs",
+        "origins:like_air",
+        "guildhall:duck/recover_stamina",
+        "guildhall:duck/stamina",
+        "origins:tailwind",
+        "origins:vegetarian",
+        "guildhall:duck/water_walking"
+    ],
+    "icon": "minecraft:cooked_chicken",
+    "impact": 2,
+    "name": "Duck",
+    "description": "A Duck. Master of land, sea, and sky."
+}
