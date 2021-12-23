@@ -7,11 +7,16 @@
         "guildhall:golemborn/bulky",
         "guildhall:golemborn/extra_breathe",
         "guildhall:golemborn/waterlogged_movement",
-        "guildhall:golemborn/food/edible_gold"
-
+        "guildhall:golemborn/food/edible_copper_ingot",
+        "guildhall:golemborn/food/edible_iron_ingot",
+        "guildhall:golemborn/food/edible_gold_ingot",
+        "guildhall:golemborn/food/edible_netherite_ingot",
+        "guildhall:golemborn/food/edible_iron_nugget",
+        "guildhall:golemborn/food/edible_gold_nugget",
+        "guildhall:golemborn/food/tooltips"
     ],
     "name": "Golemborn",
     "description": "A fist of steel and a heart of gold.",
     "icon": "minecraft:iron_block",
     "impact": 2
-  }
+}

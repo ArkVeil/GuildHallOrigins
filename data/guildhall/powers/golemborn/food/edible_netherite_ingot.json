@@ -13,12 +13,12 @@
             {
                 "type": "origins:execute_command",
                 "permission_level": 4,
-                "command": "clear @s gold_ingot 1"
+                "command": "clear @s netherite_ingot 1"
             },
             {
                 "type": "origins:feed",
-                "food": 6,
-                "saturation": 1.2
+                "food": 8,
+                "saturation": 0.8
             },
             {
                 "type": "origins:play_sound",
@@ -35,7 +35,7 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "minecraft:gold_ingot"
+                        "item": "minecraft:netherite_ingot"
                     }
                 }
             },
@@ -45,15 +45,13 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "minecraft:gold_ingot"
+                        "item": "minecraft:netherite_ingot"
                     }
                 }
             }
         ]
     },
     "hud_render": {
-        "should_render": true,
-        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-        "bar_index": 0
+        "should_render": false
     }
 }

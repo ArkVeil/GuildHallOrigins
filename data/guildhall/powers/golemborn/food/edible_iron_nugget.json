@@ -1,8 +1,8 @@
 {
     "description": "Same nutrition as golden carrot",
     "type": "origins:active_self",
-    "hidden": "false",
-    "cooldown": 20,
+    "hidden": "true",
+    "cooldown": 40,
     "key": {
         "key": "key.use",
         "continuous": false
@@ -13,12 +13,12 @@
             {
                 "type": "origins:execute_command",
                 "permission_level": 4,
-                "command": "clear @s gold_ingot 1"
+                "command": "clear @s iron_nugget 1"
             },
             {
                 "type": "origins:feed",
-                "food": 6,
-                "saturation": 1.2
+                "food": 3,
+                "saturation": 0.6
             },
             {
                 "type": "origins:play_sound",
@@ -35,7 +35,7 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "minecraft:gold_ingot"
+                        "item": "minecraft:iron_nugget"
                     }
                 }
             },
@@ -45,7 +45,7 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "minecraft:gold_ingot"
+                        "item": "minecraft:iron_nugget"
                     }
                 }
             }

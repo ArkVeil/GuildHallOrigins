@@ -1,0 +1,26 @@
+{
+    "name": "Iron Intake",
+    "description": "You cannot eat normal food and have to eat metals like copper, iron, and gold",
+    "type": "origins:multiple",
+    "copper_ingot": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "text": "Hmm, egg."
+    },
+    "iron_ingot": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "text": "Hmm, egg."
+    }
+    
+}
