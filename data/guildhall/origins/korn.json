@@ -1,0 +1,9 @@
+{
+    "powers": [
+        "guildhall:korn/chance"
+    ],
+    "name": "Korn",
+    "description": "A legendary race known for their stunning luck. Also their extinction.",
+    "icon": "minecraft:water_bottle",
+    "impact": 1
+}
