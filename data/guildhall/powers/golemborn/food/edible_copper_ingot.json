@@ -2,7 +2,7 @@
     "description": "Same nutrition as golden carrot",
     "type": "origins:active_self",
     "hidden": "true",
-    "cooldown": 40,
+    "cooldown": 25,
     "key": {
         "key": "key.use",
         "continuous": true
@@ -13,12 +13,12 @@
             {
                 "type": "origins:execute_command",
                 "permission_level": 4,
-                "command": "clear @s gold_ingot 1"
+                "command": "clear @s copper_ingot 1"
             },
             {
                 "type": "origins:feed",
-                "food": 6,
-                "saturation": 1.2
+                "food": 2,
+                "saturation": 0.3
             },
             {
                 "type": "origins:play_sound",
@@ -38,7 +38,7 @@
                         "item_condition": {
                             "type": "origins:ingredient",
                             "ingredient": {
-                                "item": "minecraft:gold_ingot"
+                                "item": "minecraft:copper_ingot"
                             }
                         }
                     },
@@ -48,7 +48,7 @@
                         "item_condition": {
                             "type": "origins:ingredient",
                             "ingredient": {
-                                "item": "minecraft:gold_ingot"
+                                "item": "minecraft:copper_ingot"
                             }
                         }
                     }
@@ -62,8 +62,6 @@
         ]
     },
     "hud_render": {
-        "should_render": true,
-        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-        "bar_index": 0
+        "should_render": false
     }
 }

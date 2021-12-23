@@ -5,7 +5,7 @@
     "cooldown": 40,
     "key": {
         "key": "key.use",
-        "continuous": false
+        "continuous": true
     },
     "entity_action": {
         "type": "origins:and",
@@ -27,27 +27,37 @@
         ]
     },
     "condition": {
-        "type": "origins:or",
+        "type": "origins:and",
         "conditions": [
             {
-                "type": "origins:equipped_item",
-                "equipment_slot": "mainhand",
-                "item_condition": {
-                    "type": "origins:ingredient",
-                    "ingredient": {
-                        "item": "minecraft:iron_nugget"
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "minecraft:iron_nugget"
+                            }
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "minecraft:iron_nugget"
+                            }
+                        }
                     }
-                }
+                ]
             },
             {
-                "type": "origins:equipped_item",
-                "equipment_slot": "offhand",
-                "item_condition": {
-                    "type": "origins:ingredient",
-                    "ingredient": {
-                        "item": "minecraft:iron_nugget"
-                    }
-                }
+                "type": "origins:food_level",
+                "comparison": "<",
+                "compare_to": 20
             }
         ]
     },
