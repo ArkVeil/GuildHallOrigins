@@ -1,0 +1,89 @@
+{
+    "name": "Ice SHot",
+    "description": "Use [PRIMARY] to fire an ice ball that damages, slows, and weakens.",
+    "type": "origins:multiple",
+    "ice_shot":{
+        "type":"origins:fire_projectile",
+        "cooldown":10,
+        "key": "key.origins.primary_active",
+        "continuous": false,
+        "condition":
+        {
+            "type":"origins:resource",
+            "resource": "guildhall:snow_power",
+            "comparison": ">=",
+            "compare_to":  33
+        },
+        "sound": "minecraft:block.note_block.chime",
+        "entity_type": "minecraft:snowball",
+        "speed": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "is_use_mana": {
+        "type": "origins:active_self",
+        "cooldown": 10,
+        "key": "key.origin.primary_active",
+        "condition":
+        {
+            "type": "orugins:resource",
+            "resource": "guildhall:snowspirit/snow_power",
+            "comparson": ">=",
+            "compare_to": 33
+        },
+        "entity_action": {
+            "type": "origins:delay",
+            "ticks": 1,
+            "action":{
+                "type": "origins:change_resource",
+                "resource": "guildhall:snowspirit/snow_power",
+                "change": -33
+            }
+        }
+    },
+    "is_shoot":{
+        "type": "origins:target_action_on_hit",
+        "cooldonw": 0,
+        "damage_condtion":
+        {
+            "type": "origins:projectile",
+            "projectile": "minecraft:snowball"
+        },
+        "entity_action":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slowness",
+                        "duration": 200,
+                        "amplifier": 1
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:weakness",
+                        "duration": 200,
+                        "amplifier": 1
+                    }
+                },
+                {
+                    "type": "origins:damage",
+                    "amount": 6,
+                    "source": {
+                        "name": "Ice Shot",
+                        "magic": true
+                    }
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.glass.break"
+                }
+            ]
+        }
+    }
+    
+}
