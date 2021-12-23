@@ -7,10 +7,10 @@
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "item": "minecraft:iron_ingot"
+                "item": "minecraft:copper_ingot"
             }
         },
-        "text": "Hmm, egg."
+        "text": "Taste like §cberries."
     },
     "iron_ingot": {
         "type": "origins:tooltip",
@@ -20,7 +20,54 @@
                 "item": "minecraft:iron_ingot"
             }
         },
-        "text": "Hmm, egg."
+        "text": "Tastes like §4beef."
+    },
+    "gold_ingot": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:gold_ingot"
+            }
+        },
+        "texts": [
+            {
+                "text": "Tastes like carrots...."
+            },
+            {
+                "text": "§6good carrots."
+            }
+        ]
+    },
+    "netherite_ingot": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:netherite_ingot"
+            }
+        },
+        "text": "Tastes like §knotch"
+    },
+    "iron_nugget": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:iron_nugget"
+            }
+        },
+        "text": "Tastes like §ecarrots."
+    },
+    "gold_nugget": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:gold_nugget"
+            }
+        },
+        "text": "Tastes like §etoast"
+        
     }
-    
 }
