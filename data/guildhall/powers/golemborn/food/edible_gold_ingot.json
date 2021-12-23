@@ -1,0 +1,59 @@
+{
+    "description": "Same nutrition as golden carrot",
+    "type": "origins:active_self",
+    "hidden": "false",
+    "cooldown": 40,
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "clear @s gold_ingot 1"
+            },
+            {
+                "type": "origins:feed",
+                "food": 6,
+                "saturation": 1.2
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.iron_golem.repair"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:gold_ingot"
+                    }
+                }
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "offhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:gold_ingot"
+                    }
+                }
+            }
+        ]
+    },
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 0
+    }
+}
