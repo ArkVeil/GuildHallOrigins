@@ -1,6 +1,8 @@
 {
-        "description": "More exhausting to move underwater",
-        "hidden": true,
+    "description": "More exhausting to move underwater",
+    "hidden": true,
+    "type": "origins:multiple",
+    "exhaust": {
         "type": "origins:modify_exhaustion",
         "modifier": {
             "name": "Increased exhaustion underwater",
@@ -12,11 +14,43 @@
             "conditions": [
                 {
                     "type": "origins:submerged_in",
-            "fluid": "minecraft:water"
+                    "fluid": "minecraft:water"
                 },
                 {
-					"type": "origins:sprinting"
-				}
+                    "type": "origins:sprinting"
+                }
             ]
         }
+    },
+    "slow": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": -0.03,
+            "name": "Decreased speed underwater"
+        },
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
+    },
+    "slow2": {
+        "modify_air": {
+            "type": "origins:modify_air_speed",
+            "modifier": {
+                "operation": "addition",
+                "value": -0.03
+            }
+        }
+    },
+    "sink": {
+        "type": "origins:modify_falling",
+        "velocity": 0.04,
+        "take_fall_damage": false,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
     }
+}
