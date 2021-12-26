@@ -1,22 +1,18 @@
 {
     "name": "Sturdy Body",
     "description": "You have increased durability due to your nature. You can increase it even more by eating netherite armor.",
-    "type":"origins:multiple",
-    "starting": {
-        "type": "origins:attribute",
-        "modifiers": [
-            {
-                "attribute": "minecraft:generic.max_health",
-                "value": 20,
-                "operation": "addition",
-                "name": "starting values"
-            },
-            {
-                "attribute": "minecraft:generic.armor",
-                "value": 15,
-                "operation": "addition",
-                "name": "starting values"
-            }
-        ]
-    }
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 20,
+            "operation": "addition",
+            "name": "starting values"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "value": 15,
+            "operation": "addition"
+        }
+    ]
 }

@@ -16,10 +16,10 @@
         "guildhall:golemborn/food/tooltips",
         "guildhall:golemborn/food/inedible",
         "guildhall:golemborn/scaling/sturdy_body",
-        "guildhall:golemborn/scaling/flag_boots",
-        "guildhall:golemborn/scaling/flag_chest",
-        "guildhall:golemborn/scaling/flag_head",
-        "guildhall:golemborn/scaling/flag_legs"
+        "guildhall:golemborn/scaling/flags/boots",
+        "guildhall:golemborn/scaling/upgrades_start",
+        "guildhall:golemborn/scaling/triggers/boots"
+
 
     ],
     "name": "Golemborn",
