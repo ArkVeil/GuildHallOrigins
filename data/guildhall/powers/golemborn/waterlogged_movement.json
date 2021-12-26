@@ -43,14 +43,5 @@
                 "value": -0.03
             }
         }
-    },
-    "sink": {
-        "type": "origins:modify_falling",
-        "velocity": 0.04,
-        "take_fall_damage": false,
-        "condition": {
-            "type": "origins:submerged_in",
-            "fluid": "minecraft:water"
-        }
     }
 }
