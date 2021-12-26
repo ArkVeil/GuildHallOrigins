@@ -17,8 +17,8 @@
             },
             {
                 "type": "origins:feed",
-                "food": 8,
-                "saturation": 0.8
+                "food": 4,
+                "saturation": 1.2
             },
             {
                 "type": "origins:play_sound",
@@ -27,37 +27,27 @@
         ]
     },
     "condition": {
-        "type": "origins:and",
+        "type": "origins:or",
         "conditions": [
             {
-                "type": "origins:or",
-                "conditions": [
-                    {
-                        "type": "origins:equipped_item",
-                        "equipment_slot": "mainhand",
-                        "item_condition": {
-                            "type": "origins:ingredient",
-                            "ingredient": {
-                                "item": "minecraft:netherite_ingot"
-                            }
-                        }
-                    },
-                    {
-                        "type": "origins:equipped_item",
-                        "equipment_slot": "offhand",
-                        "item_condition": {
-                            "type": "origins:ingredient",
-                            "ingredient": {
-                                "item": "minecraft:netherite_ingot"
-                            }
-                        }
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:netherite_ingot"
                     }
-                ]
+                }
             },
             {
-                "type": "origins:food_level",
-                "comparison": "<",
-                "compare_to": 20
+                "type": "origins:equipped_item",
+                "equipment_slot": "offhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:netherite_ingot"
+                    }
+                }
             }
         ]
     },
