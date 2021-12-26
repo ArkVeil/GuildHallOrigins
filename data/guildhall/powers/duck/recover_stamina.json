@@ -1,0 +1,14 @@
+{
+    "name": "Stamina Regen",
+    "description": "Regenerate stamina by touching the ground.",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "guildhall:duck/stamina",
+        "change": 1
+    },
+    "interval": 10,
+    "condition": {
+        "type": "origins:on_block"
+    }
+}
