@@ -13,7 +13,8 @@
         "guildhall:golemborn/food/edible_netherite_ingot",
         "guildhall:golemborn/food/edible_iron_nugget",
         "guildhall:golemborn/food/edible_gold_nugget",
-        "guildhall:golemborn/food/tooltips"
+        "guildhall:golemborn/food/tooltips",
+        "guildhall:golemborn/food/inedible"
     ],
     "name": "Golemborn",
     "description": "A fist of steel and a heart of gold.",
