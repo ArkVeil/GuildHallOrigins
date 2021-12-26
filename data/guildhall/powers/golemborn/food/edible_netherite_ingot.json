@@ -21,6 +21,29 @@
                 "saturation": 1.2
             },
             {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "minecraft:absorption",
+                        "duration": 2400,
+                        "amplifier": 3
+                    },
+                    {
+                        "effect": "minecraft:regeneration",
+                        "duration": 400,
+                        "amplifier": 1
+                    },
+                    {
+                        "effect": "minecraft:fire_resistance",
+                        "duration": 6000
+                    },
+                    {
+                        "effect": "minecraft:resistance",
+                        "duration": 6000
+                    }
+                ]
+            },
+            {
                 "type": "origins:play_sound",
                 "sound": "minecraft:entity.iron_golem.repair"
             }
