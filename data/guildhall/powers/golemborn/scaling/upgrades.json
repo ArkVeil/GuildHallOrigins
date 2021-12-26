@@ -10,7 +10,7 @@
         "modifiers": [
             {
                 "attribute": "minecraft:generic.max_health",
-                "value": 2.5,
+                "value": 5,
                 "operation": "addition",
                 "name": "boots values"
             },
@@ -31,7 +31,7 @@
         "modifiers": [
             {
                 "attribute": "minecraft:generic.max_health",
-                "value": 2.5,
+                "value": 5,
                 "operation": "addition",
                 "name": "chest values"
             },
@@ -52,7 +52,7 @@
         "modifiers": [
             {
                 "attribute": "minecraft:generic.max_health",
-                "value": 2.5,
+                "value": 5,
                 "operation": "addition",
                 "name": "head values"
             },
@@ -73,7 +73,7 @@
         "modifiers": [
             {
                 "attribute": "minecraft:generic.max_health",
-                "value": 2.5,
+                "value": 5,
                 "operation": "addition",
                 "name": "legs values"
             },

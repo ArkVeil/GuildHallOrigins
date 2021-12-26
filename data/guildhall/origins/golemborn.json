@@ -17,7 +17,13 @@
         "guildhall:golemborn/food/inedible",
         "guildhall:golemborn/scaling/sturdy_body",
         "guildhall:golemborn/scaling/flags/boots",
-        "guildhall:golemborn/scaling/triggers/boots"
+        "guildhall:golemborn/scaling/flags/chest",
+        "guildhall:golemborn/scaling/flags/head",
+        "guildhall:golemborn/scaling/flags/legs",
+        "guildhall:golemborn/scaling/triggers/boots",
+        "guildhall:golemborn/scaling/triggers/chest",
+        "guildhall:golemborn/scaling/triggers/head",
+        "guildhall:golemborn/scaling/triggers/legs"
 
 
     ],
