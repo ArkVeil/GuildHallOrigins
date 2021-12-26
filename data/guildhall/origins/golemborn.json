@@ -14,7 +14,13 @@
         "guildhall:golemborn/food/edible_iron_nugget",
         "guildhall:golemborn/food/edible_gold_nugget",
         "guildhall:golemborn/food/tooltips",
-        "guildhall:golemborn/food/inedible"
+        "guildhall:golemborn/food/inedible",
+        "guildhall:golemborn/scaling/sturdy_body",
+        "guildhall:golemborn/scaling/flag_boots",
+        "guildhall:golemborn/scaling/flag_chest",
+        "guildhall:golemborn/scaling/flag_head",
+        "guildhall:golemborn/scaling/flag_legs"
+
     ],
     "name": "Golemborn",
     "description": "A fist of steel and a heart of gold.",
