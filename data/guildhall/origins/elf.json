@@ -1,0 +1,9 @@
+{
+    "powers": [
+      "guildhall:elf/dagger_proficiency"
+    ],
+    "name": "Elf",
+    "description": "ROCK AND STONE LADS.",
+    "icon": "minecraft:diamond_pickaxe",
+    "impact": 2
+  }
