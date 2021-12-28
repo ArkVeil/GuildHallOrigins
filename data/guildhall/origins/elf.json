@@ -1,9 +1,9 @@
 {
-    "powers": [
-      "guildhall:elf/dagger_proficiency"
-    ],
-    "name": "Elf",
-    "description": "ROCK AND STONE LADS.",
-    "icon": "minecraft:diamond_pickaxe",
-    "impact": 2
-  }
+  "powers": [
+      "guildhall:elf/woodwalker"
+  ],
+  "name": "Elf",
+  "description": "A fist of steel and a heart of gold.",
+  "icon": "minecraft:iron_block",
+  "impact": 2
+}
