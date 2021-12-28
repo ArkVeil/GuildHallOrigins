@@ -1,6 +1,7 @@
 {
   "powers": [
       "guildhall:elf/woodwalker",
+      "guildhall:elf/range_proficiency",
       "guildhall:elf/melee_avoidant"
   ],
   "name": "Elf",
