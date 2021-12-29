@@ -1,10 +1,6 @@
 {
     "type": "origins:multiple",
     "hidden": false,
-    "start": {
-        "hidden": false,
-        "name": "test"
-    },
     "boots": {
         "type": "origins:attribute",
         "modifiers": [
