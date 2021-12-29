@@ -1,0 +1,92 @@
+{
+    "type": "origins:multiple",
+    "hidden": false,
+    "start": {
+        "hidden": false,
+        "name": "test"
+    },
+    "boots": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 5,
+                "operation": "addition",
+                "name": "boots values"
+            },
+            {
+                "attribute": "minecraft:generic.armor",
+                "value": 1.25,
+                "operation": "addition"
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "value": 3,
+                "operation": "addition"
+            }
+        ]
+    },
+    "chest": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 5,
+                "operation": "addition",
+                "name": "chest values"
+            },
+            {
+                "attribute": "minecraft:generic.armor",
+                "value": 1.25,
+                "operation": "addition"
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "value": 3,
+                "operation": "addition"
+            }
+        ]
+    },
+    "head": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 5,
+                "operation": "addition",
+                "name": "head values"
+            },
+            {
+                "attribute": "minecraft:generic.armor",
+                "value": 1.25,
+                "operation": "addition"
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "value": 3,
+                "operation": "addition"
+            }
+        ]
+    },
+    "legs": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 5,
+                "operation": "addition",
+                "name": "legs values"
+            },
+            {
+                "attribute": "minecraft:generic.armor",
+                "value": 1.25,
+                "operation": "addition"
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "value": 3,
+                "operation": "addition"
+            }
+        ]
+    }
+}
