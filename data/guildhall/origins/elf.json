@@ -29,6 +29,8 @@
       "guildhall:elf/hp/scaling/take_aim",
       "guildhall:elf/hp/scaling/trade",
       "guildhall:elf/stamina",
+      "guildhall:elf/stamina_use_flag",
+      "guildhall:elf/stamina_regen",
       "guildhall:elf/climbing",
       "guildhall:elf/climbing_cost"
       ],

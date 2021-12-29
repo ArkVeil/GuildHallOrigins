@@ -1,0 +1,25 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "guildhall:elf/stamina",
+                "change": "10"
+            }
+        ]
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "guildhall:elf/stamina_use_flag",
+                "comparison": "==",
+                "compare_to": 0
+            }
+        ]
+    }
+}
