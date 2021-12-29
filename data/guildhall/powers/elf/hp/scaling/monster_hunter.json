@@ -1,0 +1,14 @@
+{
+    "type": "origins:conditioned_attribute",
+    "hidden": true,
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 1
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:advancement",
+        "advancement": "minecraft:adventure/kill_a_mob"
+    }
+}
