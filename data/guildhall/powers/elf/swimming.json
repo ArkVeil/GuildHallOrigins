@@ -7,7 +7,7 @@
                 "type": "origins:resource",
                 "resource": "guildhall:elf/stamina",
                 "comparison": "<",
-                "compare_to": 3
+                "compare_to": 2
             },
             {
                 "type": "origins:status_effect",

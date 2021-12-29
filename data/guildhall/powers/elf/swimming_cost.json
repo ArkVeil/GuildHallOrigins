@@ -13,10 +13,15 @@
                 "resource": "guildhall:elf/stamina_use_flag",
                 "change": "1",
                 "operation": "set"
+            },
+            {
+                "type": "origins:gain_air",
+                "value": 20
             }
+            
         ]
     },
-    "interval": 5,
+    "interval": 7,
     "condition": {
         "type": "origins:and",
         "conditions": [
@@ -24,7 +29,7 @@
                 "type": "origins:resource",
                 "resource": "guildhall:elf/stamina",
                 "comparison": ">=",
-                "compare_to": 3
+                "compare_to": 2
             },
             {
 				"type": "origins:submerged_in",
