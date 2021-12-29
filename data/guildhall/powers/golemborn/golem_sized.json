@@ -1,0 +1,43 @@
+{
+	"type": "origins:multiple",
+	"name": "Golem Sized",
+	"description": "You are 2.5 blocks tall and can't fit through single door pathways.",
+	"modify_scale": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen": {
+			"type": "origins:execute_command",
+			"command": "scale set 1.3 @s",
+			"permission_level": 4
+		},
+		"entity_action_removed": {
+			"type": "origins:execute_command",
+			"command": "scale set 1 @s",
+			"permission_level": "4"
+		},
+		"entityu_action_respawned": {
+			"type": "origins:execute_command",
+			"command": "scale set 1.3 @s",
+			"permission_level": "4"
+		},
+		"execute_chosen_when_orb": "true"
+	},
+	"modify_width": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen": {
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:hitbox_width 1.041 @s",
+			"permission_level": 4
+		},
+		"entity_action_removed": {
+			"type": "origins:execute_command",
+			"command": "scale set 1 @s",
+			"permission_level": "4"
+		},
+		"entityu_action_respawned": {
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:hitbox_width 1.041 @s",
+			"permission_level": "4"
+		},
+		"execute_chosen_when_orb": "true"
+	}
+}

@@ -1,0 +1,52 @@
+{
+    "name": "Iron Hands",
+    "description": "You can launch things you hit with your bare hands into the air.",
+    "type": "origins:multiple",
+    "on_hit": {
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_velocity",
+                    "x": 0.2,
+                    "y": 0.5
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.iron_golem.hurt"
+                }
+            ]
+        },
+        "cooldown": 10,
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:air"
+                }
+            }
+        }
+    },
+    "damage_amp": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "multiply_total",
+            "value": 6
+        },
+        "tick_rate": 1,
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:air"
+                }
+            }
+        }
+    }
+}

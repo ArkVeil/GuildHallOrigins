@@ -1,0 +1,56 @@
+{
+    "type": "origins:active_self",
+    "hidden": "true",
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "clear @s netherite_leggings 1"
+            },
+            {
+                "type": "origins:grant_power",
+                "power": "guildhall:golemborn/scaling/upgrades_legs",
+                "source": "guildhall:golemborn"
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "guildhall:golemborn/scaling/flags/legs",
+                "change": 1
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.iron_golem.repair"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:netherite_leggings"
+                    }
+                }
+            },
+            {
+                "type": "origins:resource",
+                "resource": "guildhall:golemborn/scaling/flags/legs",
+                "comparison": "==",
+                "compare_to": 0
+            }
+        ]
+    },
+    "hud_render": {
+        "should_render": false
+    }
+}
