@@ -1,0 +1,22 @@
+{
+    "type": "origins:resource",
+    "hidden": "true",
+    "min": 0,
+    "max": 100,
+    "start_value": 100,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 1,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+					"type": "origins:resource",
+					"resource": "guildhall:elf/stamina",
+					"comparison": "<",
+					"compare_to": 100
+				}
+            ]
+        }
+    }
+}

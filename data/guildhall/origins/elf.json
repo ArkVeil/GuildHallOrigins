@@ -27,7 +27,10 @@
       "guildhall:elf/hp/scaling/sniper_duel",
       "guildhall:elf/hp/scaling/star_trader",
       "guildhall:elf/hp/scaling/take_aim",
-      "guildhall:elf/hp/scaling/trade"
+      "guildhall:elf/hp/scaling/trade",
+      "guildhall:elf/stamina",
+      "guildhall:elf/climbing",
+      "guildhall:elf/climbing_cost"
       ],
   "name": "Elf",
   "description": "A fist of steel and a heart of gold.",

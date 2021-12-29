@@ -1,0 +1,20 @@
+{
+    "type": "origins:climbing",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "guildhall:elf/stamina",
+                "comparison": "!=",
+                "compare_to": 0
+            },
+            {
+                "type": "origins:collided_horizontally"
+            }
+        ]
+    },
+    "hold_condition": {
+        "type": "origins:collided_horizontally"
+    }
+}
