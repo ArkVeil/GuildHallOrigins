@@ -3,7 +3,7 @@
     "entity_action": {
         "type": "origins:change_resource",
         "resource": "guildhall:elf/stamina",
-        "change": "-5"
+        "change": "-50"
     },
     "interval": 20,
     "condition": {
@@ -25,6 +25,12 @@
                         "offset_y": 0
                     }
                 ]
+            },
+            {
+                "type": "origins:resource",
+                "resource": "guildhall:elf/stamina",
+                "comparison": "!=",
+                "compare_to": 0
             }
         ]
     }
