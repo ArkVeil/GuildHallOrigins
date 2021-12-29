@@ -1,6 +1,6 @@
 {
 	"name": "Ice Bolt",
-	"description": "Use [SECONDARY] to fire a bolf of ice that'll freeze and slow.",
+	"description": "Use [SECONDARY] to fire a bolt of ice that'll freeze and slow.",
 	"type": "origins:multiple",
 	"ice_bolt":{
 		"type": "origins:fire_projectile",

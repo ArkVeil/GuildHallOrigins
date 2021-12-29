@@ -1,8 +1,10 @@
 {
+    "name": "Snow Power",
+    "description": "You have a measure of power over the cold.",
     "type": "origins:resource",
     "min": 0,
     "max": 100,
-    "start_value": 0,
+    "start_value": 100,
     "hud_render":
     {
         "should_render": true,

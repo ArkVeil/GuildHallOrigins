@@ -14,7 +14,7 @@
         "guildhall:snowspirit/snow_regen"
     ],
     "name": "Snow Spirit",
-    "description": "",
+    "description": "A being that holds close what it truly means to be one with a colder nature.",
     "icon": "minecraft:snow_block",
     "order": 2,
     "impact": 2
