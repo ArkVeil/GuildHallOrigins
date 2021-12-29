@@ -1,5 +1,6 @@
 {
     "type": "origins:action_over_time",
+    "hidden": true,
     "rising_action": {
         "type": "origins:and",
         "actions": [

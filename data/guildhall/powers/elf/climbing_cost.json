@@ -1,12 +1,13 @@
 {
     "type": "origins:action_over_time",
+    "hidden": true,
     "entity_action": {
         "type": "origins:and",
         "actions": [
             {
                 "type": "origins:change_resource",
                 "resource": "guildhall:elf/stamina",
-                "change": "-5"
+                "change": "-6"
             },
             {
                 "type": "origins:change_resource",
