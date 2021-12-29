@@ -38,7 +38,7 @@
       "guildhall:elf/swimming_cost"
       ],
   "name": "Elf",
-  "description": "A fist of steel and a heart of gold.",
-  "icon": "minecraft:iron_block",
+  "description": "A warrior and legend of light.",
+  "icon": "minecraft:bow",
   "impact": 2
 }
