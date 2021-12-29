@@ -1,4 +1,6 @@
 {
+    "name": "Ice Body",
+    "description": "Your icy form takes double damage from fire and lava.",
     "type": "origins:modify_damage_taken",
     "modifier": {
       "name": "Origin modifier",

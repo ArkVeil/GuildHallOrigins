@@ -1,4 +1,6 @@
 {
+    "name": "Heat Sensitive",
+    "description": "Being in the nether greatly weakens your offensive abilities.",
     "type": "origins:multiple",
     "no_hands": {
         "type": "origins:modify_damage_dealt",

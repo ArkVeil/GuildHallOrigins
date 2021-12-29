@@ -1,10 +1,10 @@
 {
     "name": "Snow Regen",
-    "description": "",
+    "description": "You can regain your power when standing on snow and ice blocks.",
     "type": "origins:multiple",
     "passive": {
         "type": "origins:action_over_time",
-        "interval": 30,
+        "interval": 8,
         "cooldown": 0,
         "entity_action": {
             "type": "origins:change_resource",

@@ -1,4 +1,6 @@
 {
+    "name": "Small Ominivore",
+    "description": "Snow spirits are picky, and only eat select items.",
     "type": "origins:prevent_item_use",
     "item_condition": {
       "type": "origins:and",
