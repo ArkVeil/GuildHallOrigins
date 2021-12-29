@@ -1,0 +1,49 @@
+{
+    "type": "origins:action_over_time",
+    "hidden": true,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "guildhall:elf/stamina",
+                "change": "-6"
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "guildhall:elf/stamina_use_flag",
+                "change": "1",
+                "operation": "set"
+            }
+        ]
+    },
+    "interval": 5,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:block_collision",
+                        "offset_x": 0.01,
+                        "offset_z": 0.01,
+                        "offset_y": 0
+                    },
+                    {
+                        "type": "origins:block_collision",
+                        "offset_x": -0.01,
+                        "offset_z": -0.01,
+                        "offset_y": 0
+                    }
+                ]
+            },
+            {
+                "type": "origins:resource",
+                "resource": "guildhall:elf/stamina",
+                "comparison": "!=",
+                "compare_to": 0
+            }
+        ]
+    }  
+}

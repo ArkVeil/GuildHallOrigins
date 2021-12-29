@@ -1,0 +1,21 @@
+{
+    "type": "origins:ignore_water",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "guildhall:elf/stamina",
+                "comparison": "<",
+                "compare_to": 2
+            },
+            {
+                "type": "origins:status_effect",
+                "effect": "minecraft:conduit_power",
+                "inverted": true
+            }
+
+        ]
+    },
+    "hidden": true
+}

@@ -1,0 +1,47 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "guildhall:elf/stamina",
+                "change": "-2"
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "guildhall:elf/stamina_use_flag",
+                "change": "1",
+                "operation": "set"
+            },
+            {
+                "type": "origins:gain_air",
+                "value": 20
+            }
+            
+        ]
+    },
+    "interval": 7,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "guildhall:elf/stamina",
+                "comparison": ">=",
+                "compare_to": 2
+            },
+            {
+				"type": "origins:submerged_in",
+				"fluid": "minecraft:water",
+				"inverted": false
+            },
+            {
+                "type": "origins:status_effect",
+                "effect": "minecraft:conduit_power",
+                "inverted": true
+            }
+
+        ]
+    }
+}
