@@ -39,11 +39,11 @@
         "type": "origins:modify_air_speed",
         "modifier": {
             "operation": "addition",
-            "value": -0.08
+            "value": -0.01
+        },
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
         }
-    },
-    "condition": {
-        "type": "origins:submerged_in",
-        "fluid": "minecraft:water"
     }
 }
