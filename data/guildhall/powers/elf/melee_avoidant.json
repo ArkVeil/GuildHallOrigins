@@ -1,4 +1,6 @@
 {
+    "name": "Clumsy Swordsmanship",
+    "description": "Untrained in the ways of the sword, you find it difficult to deal damage with melee attacks.",
     "type": "origins:modify_damage_dealt",
     "modifier": {
         "operation": "multiply_total",

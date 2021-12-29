@@ -1,6 +1,7 @@
 {
     "type": "origins:resource",
-    "hidden": "true",
+    "name": "Breath of the Wild",
+    "description": "You are capable of reaching places others cannot, however only with limited stamina.",
     "min": 0,
     "max": 100,
     "start_value": 100,

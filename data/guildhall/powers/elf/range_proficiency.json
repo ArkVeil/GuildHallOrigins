@@ -1,4 +1,6 @@
 {
+    "name": "Elven Ranger",
+    "description": "Your skills let you shoot bows with deadly force",
     "type": "origins:modify_projectile_damage",
     "modifier": {
         "operation": "addition",
