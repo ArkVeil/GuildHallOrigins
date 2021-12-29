@@ -6,7 +6,7 @@
             {
                 "type": "origins:change_resource",
                 "resource": "guildhall:elf/stamina",
-                "change": "-50"
+                "change": "-5"
             },
             {
                 "type": "origins:change_resource",
@@ -16,7 +16,7 @@
             }
         ]
     },
-    "interval": 20,
+    "interval": 5,
     "condition": {
         "type": "origins:and",
         "conditions": [
@@ -44,11 +44,5 @@
                 "compare_to": 0
             }
         ]
-    },
-    "falling_action": {
-        "type": "origins:change_resource",
-        "resource": "guildhall:elf/stamina_use_flag",
-        "change": "0",
-        "operation": "set"
-    }
+    }  
 }

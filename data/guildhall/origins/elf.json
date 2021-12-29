@@ -31,6 +31,7 @@
       "guildhall:elf/stamina",
       "guildhall:elf/stamina_use_flag",
       "guildhall:elf/stamina_regen",
+      "guildhall:elf/stamina_regen_trigger",
       "guildhall:elf/climbing",
       "guildhall:elf/climbing_cost"
       ],
