@@ -35,17 +35,15 @@
             "fluid": "minecraft:water"
         }
     },
-    "slow2": {
-        "modify_air": {
-            "type": "origins:modify_air_speed",
-            "modifier": {
-                "operation": "addition",
-                "value": -0.08
-            }
-        },
-        "condition": {
-            "type": "origins:submerged_in",
-            "fluid": "minecraft:water"
+    "modify_air": {
+        "type": "origins:modify_air_speed",
+        "modifier": {
+            "operation": "addition",
+            "value": -0.08
         }
+    },
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
     }
 }
