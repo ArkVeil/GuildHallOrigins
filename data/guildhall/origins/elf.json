@@ -2,7 +2,9 @@
   "powers": [
       "guildhall:elf/woodwalker",
       "guildhall:elf/range_proficiency",
-      "guildhall:elf/melee_avoidant"
+      "guildhall:elf/melee_avoidant",
+      "guildhall:elf/hp/starting",
+      "guildhall:elf/hp/scaling/takeaim"
   ],
   "name": "Elf",
   "description": "A fist of steel and a heart of gold.",
