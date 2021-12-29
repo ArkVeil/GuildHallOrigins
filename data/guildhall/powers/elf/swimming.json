@@ -1,12 +1,17 @@
 {
     "type": "origins:action_over_time",
-    "rising_action": {
+    "entity_action": {
         "type": "origins:and",
         "actions": [
             {
                 "type": "origins:change_resource",
+                "resource": "guildhall:elf/stamina",
+                "change": "-10"
+            },
+            {
+                "type": "origins:change_resource",
                 "resource": "guildhall:elf/stamina_use_flag",
-                "change": "0",
+                "change": "1",
                 "operation": "set"
             }
         ]
@@ -16,13 +21,16 @@
         "type": "origins:and",
         "conditions": [
             {
-                "type": "origins:on_block"
-            },
-            {
+                "type": "origins:resource",
+                "resource": "guildhall:elf/stamina",
+                "comparison": ">=",
+                "compare_to": 10
+            },{
 				"type": "origins:submerged_in",
 				"fluid": "minecraft:water",
-				"inverted": true
+				"inverted": false
 			}
+
         ]
     }
 }

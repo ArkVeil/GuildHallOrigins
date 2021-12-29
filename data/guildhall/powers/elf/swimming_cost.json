@@ -1,0 +1,9 @@
+{
+    "type": "origins:ignore_water",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "guildhall:elf/stamina",
+        "comparison": "<",
+        "compare_to": 10
+    }
+}

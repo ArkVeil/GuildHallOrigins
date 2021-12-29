@@ -33,7 +33,9 @@
       "guildhall:elf/stamina_regen",
       "guildhall:elf/stamina_regen_trigger",
       "guildhall:elf/climbing",
-      "guildhall:elf/climbing_cost"
+      "guildhall:elf/climbing_cost",
+      "guildhall:elf/swimming",
+      "guildhall:elf/swimming_cost"
       ],
   "name": "Elf",
   "description": "A fist of steel and a heart of gold.",
