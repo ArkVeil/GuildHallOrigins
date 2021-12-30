@@ -14,11 +14,6 @@
                 "command": "clear @s netherite_boots 1"
             },
             {
-                "type": "origins:grant_power",
-                "power": "guildhall:golemborn/scaling/upgrades_boots",
-                "source": "guildhall:golemborn"
-            },
-            {
                 "type": "origins:change_resource",
                 "resource": "guildhall:golemborn/scaling/flags/boots",
                 "change": 1

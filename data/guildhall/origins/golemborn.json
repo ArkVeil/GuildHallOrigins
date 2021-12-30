@@ -23,7 +23,9 @@
         "guildhall:golemborn/scaling/triggers/boots",
         "guildhall:golemborn/scaling/triggers/chest",
         "guildhall:golemborn/scaling/triggers/head",
-        "guildhall:golemborn/scaling/triggers/legs"
+        "guildhall:golemborn/scaling/triggers/legs",
+        "guildhall:golemborn/scaling/upgrades"
+
 
 
     ],
