@@ -34,10 +34,6 @@
         "minecraft:beetroot_soup",
         "minecraft:sweet_berries",
         "minecraft:glow_berries",
-        "minecraft:honey_bottle",
-        "additionaladditions:berry_pie",
-        "additionaladditions:fried_egg",
-        "additionaladditions:honeyed_apple",
-        "additionaladditions:chicken_nugget"
+        "minecraft:honey_bottle"
     ]
 }

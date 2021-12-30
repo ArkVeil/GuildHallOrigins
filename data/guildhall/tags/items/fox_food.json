@@ -13,7 +13,6 @@
         "minecraft:apple",
         "minecraft:golden_apple",
         "minecraft:enchanted_golden_apple",
-        "additionaladditions:honeyed_apple",
         "minecraft:chorus_fruit",
         "minecraft:glow_berries",
         "minecraft:rabbit_stew",
@@ -21,8 +20,6 @@
         "minecraft:golden_carrot",
         "minecraft:potato",
         "minecraft:baked_potato",
-        "minecraft:mushroom_stew",
-        "additionaladditions:fried_egg",
-        "additionaladditions:chicken_nugget"
+        "minecraft:mushroom_stew"
     ]
 }
