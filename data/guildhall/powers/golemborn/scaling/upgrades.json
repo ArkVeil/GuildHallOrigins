@@ -1,8 +1,8 @@
 {
     "type": "origins:multiple",
-    "hidden": false,
+    "hidden": true,
     "boots": {
-        "type": "origins:attribute",
+        "type": "origins:conditioned_attribute",
         "modifiers": [
             {
                 "attribute": "minecraft:generic.max_health",
@@ -20,10 +20,16 @@
                 "value": 3,
                 "operation": "addition"
             }
-        ]
+        ],
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "guildhall:golemborn/scaling/flags/boots",
+            "comparison": "==",
+            "compare_to": 1        }
     },
     "chest": {
-        "type": "origins:attribute",
+        "type": "origins:conditioned_attribute",
         "modifiers": [
             {
                 "attribute": "minecraft:generic.max_health",
@@ -41,10 +47,16 @@
                 "value": 3,
                 "operation": "addition"
             }
-        ]
+        ],
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "guildhall:golemborn/scaling/flags/chest",
+            "comparison": "==",
+            "compare_to": 1        }
     },
     "head": {
-        "type": "origins:attribute",
+        "type": "origins:conditioned_attribute",
         "modifiers": [
             {
                 "attribute": "minecraft:generic.max_health",
@@ -62,10 +74,16 @@
                 "value": 3,
                 "operation": "addition"
             }
-        ]
+        ],
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "guildhall:golemborn/scaling/flags/head",
+            "comparison": "==",
+            "compare_to": 1        }
     },
     "legs": {
-        "type": "origins:attribute",
+        "type": "origins:conditioned_attribute",
         "modifiers": [
             {
                 "attribute": "minecraft:generic.max_health",
@@ -83,6 +101,12 @@
                 "value": 3,
                 "operation": "addition"
             }
-        ]
+        ],
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "guildhall:golemborn/scaling/flags/legs",
+            "comparison": "==",
+            "compare_to": 1        }
     }
 }

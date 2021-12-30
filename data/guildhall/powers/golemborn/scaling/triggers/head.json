@@ -14,11 +14,6 @@
                 "command": "clear @s netherite_helmet 1"
             },
             {
-                "type": "origins:grant_power",
-                "power": "guildhall:golemborn/scaling/upgrades_head",
-                "source": "guildhall:golemborn"
-            },
-            {
                 "type": "origins:change_resource",
                 "resource": "guildhall:golemborn/scaling/flags/head",
                 "change": 1

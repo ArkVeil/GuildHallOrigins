@@ -14,11 +14,6 @@
                 "command": "clear @s netherite_chestplate 1"
             },
             {
-                "type": "origins:grant_power",
-                "power": "guildhall:golemborn/scaling/upgrades_chest",
-                "source": "guildhall:golemborn"
-            },
-            {
                 "type": "origins:change_resource",
                 "resource": "guildhall:golemborn/scaling/flags/chest",
                 "change": 1
