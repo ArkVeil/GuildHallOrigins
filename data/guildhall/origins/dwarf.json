@@ -7,7 +7,9 @@
     "guildhall:dwarf/powerful_grip",
     "guildhall:dwarf/dwarven_pride",
     "guildhall:dwarf/bug_hater",
-    "guildhall:dwarf/dwarven_grace"
+    "guildhall:dwarf/dwarven_grace",
+    "guildhall:dwarf/molly",
+    "guildhall:dwarf/minerals_note"
   ],
   "name": "Dwarf",
   "description": "ROCK AND STONE LADS.",
