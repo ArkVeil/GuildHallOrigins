@@ -13,7 +13,8 @@
 		"guildhall:abyssian/depressure",
 		"guildhall:abyssian/deep_power",
 		"guildhall:abyssian/deeps_might",
-		"guildhall:abyssian/night_vision"
+		"guildhall:abyssian/night_vision",
+		"guildhall:abyssian/patch_fix"
     ],
     "icon": "minecraft:nether_star",
     "order": 4,
