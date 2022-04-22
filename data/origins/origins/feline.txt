@@ -4,5 +4,5 @@
 	"icon": "minecraft:orange_wool",
 	"order": 2,
 	"impact": 2,
-	"unchoosable": true
+	"unchoosable": false
 }
