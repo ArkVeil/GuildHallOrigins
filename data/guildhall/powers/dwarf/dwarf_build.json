@@ -3,8 +3,52 @@
 	"name": "Dwarf Build",
 	"description": "You are 1.5 blocks tall and have 12 hearts.",
 	"modify_size": {
-		"type": "extraorigins:modify_size",
-		"scale": 0.75
+		"type": "origins:action_on_callback",
+		"execute_chosen_when_orb": true,
+		"entity_action_added": {
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:height 0.80 @s",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:model_width 0.8 @s",
+					"permission_level": 4
+				}
+			]
+		},
+		"entity_action_respawn": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:height 0.80 @s",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:model_width 0.8 @s",
+					"permission_level": 4
+				}
+			]
+		},
+		"entity_action_lost": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale reset pehkui:height @s",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale reset pehkui:model_width @s",
+					"permission_level": 4
+				}
+			]
+		}
 	},
 	"attribute_modifiers": {
 		"type": "origins:attribute",
