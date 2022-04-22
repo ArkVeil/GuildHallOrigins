@@ -1,16 +1,6 @@
 {
     "replace": false,
     "origins": [
-        "guildhall:feline",
-        "guildhall:enderfly",
-        "guildhall:turtle",
-        "guildhall:elemental",
-        "guildhall:dwarf",
-        "guildhall:snowspirit",
-        "guildhall:abyssian",
-        "guildhall:golemborn",
-        "guildhall:duck",
-        "guildhall:elf",
-        "guildhall:korn"
+        "guildhall:dwarf"
     ]
 }
