@@ -1,6 +1,6 @@
 {
     "name": "Powerful Grip",
-    "description": "You wear down and break tools faster.",
+    "description": "You wear down and break tools faster. You also cannot use flimsy bows.",
     "type": "origins:multiple",
     "blocks": {
         "type": "origins:action_on_block_break",
@@ -33,5 +33,14 @@
             "chance": 0.3
         },
         "cooldown":1
+    },
+    "bow_restriction": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:bow"
+            }
+        }
     }
 }
