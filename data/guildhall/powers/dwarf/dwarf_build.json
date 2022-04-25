@@ -1,76 +1,120 @@
 {
-	"type": "origins:multiple",
-	"name": "Dwarf Build",
-	"description": "You are 1.5 blocks tall and have 12 hearts.",
-	"modify_size": {
-		"type": "origins:action_on_callback",
-		"execute_chosen_when_orb": true,
-		"entity_action_added": {
-			"actions": [
-				{
-					"type": "origins:execute_command",
-					"command": "scale set pehkui:height 0.80 @s",
-					"permission_level": 4
-				},
-				{
-					"type": "origins:execute_command",
-					"command": "scale set pehkui:model_width 0.8 @s",
-					"permission_level": 4
-				}
-			]
-		},
-		"entity_action_respawn": {
-			"type": "origins:and",
-			"actions": [
-				{
-					"type": "origins:execute_command",
-					"command": "scale set pehkui:height 0.80 @s",
-					"permission_level": 4
-				},
-				{
-					"type": "origins:execute_command",
-					"command": "scale set pehkui:model_width 0.8 @s",
-					"permission_level": 4
-				}
-			]
-		},
-		"entity_action_lost": {
-			"type": "origins:and",
-			"actions": [
-				{
-					"type": "origins:execute_command",
-					"command": "scale reset pehkui:height @s",
-					"permission_level": 4
-				},
-				{
-					"type": "origins:execute_command",
-					"command": "scale reset pehkui:model_width @s",
-					"permission_level": 4
-				}
-			]
-		}
-	},
-	"attribute_modifiers": {
-		"type": "origins:attribute",
-		"modifiers": [
-			{
-				"name": "Origin modifier",
-				"attribute": "generic.max_health",
-				"operation": "addition",
-				"value": 4
-			},
-			{
-				"name": "Origin modifier",
-				"attribute": "reach-entity-attributes:attack_range",
-				"operation": "addition",
-				"value": -0.1
-			},
-			{
-				"name": "Origin modifier",
-				"attribute": "reach-entity-attributes:reach",
-				"operation": "addition",
-				"value": -0.5
-			}
-		]
-	}
+    "type": "origins:multiple",
+    "pehkui_scales": {
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": true,
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:height 0.26 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:width 0.26 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:motion 0.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:reach 0.75 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:step_height 2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:view_bobbing 1.5 @s"
+                }
+            ]
+        },
+        "entity_action_respawn": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:height 0.26 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:width 0.26 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:motion 0.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:reach 0.75 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:step_height 2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:view_bobbing 1.5 @s"
+                }
+            ]
+        },
+        "entity_action_lost": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale reset pehkui:height @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale reset pehkui:width @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale reset pehkui:motion @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale reset pehkui:reach @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale reset pehkui:step_height @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale reset pehkui:view_bobbing @s"
+                }
+            ]
+        }
+    },
+    "more_health": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "value": 4,
+            "operation": "addition"
+        }
+    }
 }
